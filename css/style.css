@@ -57,11 +57,11 @@ body{
 	/*PHP Dynamic Background
 	background-image:url("../images/bg.php");
 	*/
-	/*background-image:url("../images/bg.jpg");
+	background-image:url("../images/bg.jpg");
 	background-repeat:no-repeat;
 	background-size:cover;
 	background-attachment:fixed;
-	background-position:center center;*/
+	background-position:center center;
 	height:100%;
 	position:relative;
 	-webkit-touch-callout:none;
@@ -173,12 +173,6 @@ main h2{
 	font-size:1.1em;
 	text-align:center;
 }
-.home-mobile{
-	display: none;
-}
-.home-image{
-	width: 100%;
-}
 /*Icons
 ------------------*/
 i{margin:2em 0.4em}
@@ -238,12 +232,6 @@ main{
 		left:10%;
 	}
 	main h1:before,main h1:after{display:none}
-	.home{
-		display: none;
-	}
-	.home-mobile{
-		display: block;
-	}
 }
 @media screen and (max-width:500px){
 	main h1{font-size:8vw}
@@ -280,7 +268,7 @@ main a *:hover{cursor:url("../images/cursors/pointer.png"),pointer}
 ::-webkit-scrollbar{width:12px;height:12px;background-color:#121212}
 ::-webkit-scrollbar-corner{background-color:#0e0e0e}
 ::-webkit-scrollbar-track{background-color:#121212}
-::-webkit-scrollbar-thumb{background:#faed2d}
+::-webkit-scrollbar-thumb{background:#900}
 ::-webkit-scrollbar:horizontal{height:12px}
 /*Selection
 ------------------*/
